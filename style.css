@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkorchid;
+    user-select: none;
+}
+
+.start-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.end-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: xx-large;
+    
+}
+
+#input{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+    height: 40px;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid white;
+    outline-color: white;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+#start-btn{
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.end-div>h3{
+
+    color: white;
+    font-weight: bolder;
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+
+.end-div>h4{
+    
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.middle-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+.question-div{
+    background-color: rgba(255, 255, 255, 0.644);
+    height: 55vh;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+#user-name{
+    font-weight: bolder;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding: 20px;
+    font-size: x-large;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#q{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.line-through{
+    border: 1px solid black;
+}
+
+.options{
+    padding: 15px;
+}
+
+.option{
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-size: larger;
+    background-color: white;
+    margin: 10px 0px;
+    color: black;
+    height: 40px;
+    width: 100%;
+}
+
+.option:hover{
+    background-color: orchid;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+    font-size: x-large;
+    overflow: hidden;
+}
+
+.option.active{
+    background-color: orchid;
+    color: white;
+    font-size: x-large;
+}
+
+.label{
+    font-weight: bolder;
+}
+
+.btn{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#next-btn{
+    flex: 0.5;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: orchid;
+    cursor:pointer;
+}
+
+#prev-btn{
+   
+    flex: 0.5;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: orchid;
+    cursor: pointer;
+}
+
+.pages{
+    flex: 1;
+    display: flex
+}
+
+.page{
+    font-size: large;
+    margin: 0px 5px;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border: 2px solid rgba(255, 0, 0, 0.582);
+}
+
+.page:hover{
+    background-color: greenyellow;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.page.active {
+    background-color: greenyellow;
+}
+
+.answered{
+    background-color: darkorchid;
+}
+
+#submit-btn{
+    margin-left: 80%;
+    border-radius: 50px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: black;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 5px;
+    border-color: greenyellow;
+    outline-color: greenyellow;
+}
